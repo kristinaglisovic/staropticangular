@@ -1,0 +1,67 @@
+
+
+<div class="container pb-5">
+    <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search>
+    <div class="d-flex align-items-center justify-content-evenly flex-wrap">
+
+        
+        <app-tags (tagsSelected)="onTagSelected($event)"></app-tags>
+        <app-categories (catSelected)="onCatSelected($event)"></app-categories>
+        <app-sortby (sortOrderSelected)="sortBy($event)"></app-sortby>
+    </div>
+ 
+</div>
+
+  <div class="row">
+    <div *ngFor="let post of posts | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage, totalItems: total }" class="post col-xl-6 col-md-12">
+        <div class="post-thumbnail"><a [routerLink]="['/home/posts',post.id]"><img src="http://localhost:5000/Images/{{post.images[0]}}" alt="{{post.title}}" class="postImg"></a></div>
+        <div class="post-details">
+            
+            <div class="post-meta d-flex justify-content-between">
+                <div class="date meta-last"><i class="fa-solid fa-clock"></i>{{post.createdAt | date: 'dd/MM/yyyy hh:mm'}}</div>
+             
+                <div class="category text-uppercase"><p>{{post.categories[0]}}</p></div>
+
+                <div *ngIf="auth.user">
+                    <div class="text-center">
+                        <div *ngIf="isLiked(post); else disliked;">
+                            <button (click)="likePost(post.id)"  class="bg-danger btn btn-sm"><i class="fa-solid fa-heart-crack"></i></button>
+                        </div>
+                        <ng-template #disliked>
+                            <button (click)="likePost(post.id)" class="bg-warning btn btn-sm"><i class='fa-solid fa-heart'></i></button>
+                        </ng-template>
+                    
+                      </div>
+                </div>
+            </div>
+            <!-- LINK -->
+            <a [routerLink]="['/home/posts',post.id]">
+                <h3 class="h4">{{post.title}}</h3></a>
+            <p class="text-muted">{{post.description | truncate:138}}</p>
+            <footer class="post-footer d-flex align-items-center"><div class="author d-flex align-items-center flex-wrap">
+                    <div class="title"><span><i class="fa-solid fa-user"></i> {{post.author}}</span></div></div>
+                    <div class="title"><i class="fa-solid fa-heart"></i>{{post.likes}}</div>
+                    <div class="comments meta-last"><i class="fa-solid fa-comments"></i>{{post.commentsCount}}</div>
+                   
+    
+            </footer>
+
+        </div>
+       
+    
+    </div>
+       
+
+     </div>
+     <div *ngIf="total>4;" class="position-relative text-center">
+        <pagination-controls (pageChange)="pageChangeEvent($event)"  [previousLabel]="this.translate ? 'Previous': 'Prethodna' "
+        [nextLabel]="this.translate ? 'Next': 'Sledeća'"></pagination-controls>
+    </div>
+    <div *ngIf="total==0">
+        <h5 class="text-center">{{'HOME.NoResults' | translate}}</h5>
+    </div>
+   
+
+
+     
+     

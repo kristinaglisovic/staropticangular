@@ -1,0 +1,10 @@
+<div class="col-md-12 py-2">
+    <mat-form-field appearance="fill" class="bg-secondary">
+      <mat-label [translate]="'HOME.tags'"></mat-label>
+        <mat-select multiple>
+            <mat-option *ngFor="let t of onlyActive(tags)" [value]="t.id" (onSelectionChange)="changeTags($event)">
+                {{t.name}} ({{t.activePostsCount}})
+              </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>

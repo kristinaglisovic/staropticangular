@@ -1,0 +1,149 @@
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\appsettings.Development.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\appsettings.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.exe
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.deps.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.runtimeconfig.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.runtimeconfig.dev.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.xml
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\BCrypt.Net-Next.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Dapper.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\FluentValidation.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Identity.Client.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.OpenApi.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Newtonsoft.Json.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\System.Runtime.Caching.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Application.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Domain.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Implementation.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Application.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Domain.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Implementation.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.AssemblyReference.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.AssemblyInfoInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.AssemblyInfo.cs
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.CoreCompileInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\scopedcss\bundle\Blog.Api.styles.css
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\Blog.Api.StaticWebAssets.Manifest.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.RazorTargetAssemblyInfo.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.CopyComplete
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\refint\Blog.Api.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.xml
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.genruntimeconfig.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Api\obj\Release\net5.0\ref\Blog.Api.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\appsettings.Development.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\appsettings.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.exe
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.deps.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.runtimeconfig.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Api.xml
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\BCrypt.Net-Next.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Dapper.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\FluentValidation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Microsoft.OpenApi.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Newtonsoft.Json.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\System.Runtime.Caching.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Implementation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\bin\Release\net5.0\Blog.Implementation.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\Blog.Api.StaticWebAssets.Manifest.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\scopedcss\bundle\Blog.Api.styles.css
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\ref\Blog.Api.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.xml
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\Blog.Api.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\Blog.Api.StaticWebAssets.Pack.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\msbuild.Blog.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\msbuild.build.Blog.Api.props
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\msbuild.buildMultiTargeting.Blog.Api.props
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\staticwebassets\msbuild.buildTransitive.Blog.Api.props
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Api\obj\Release\net5.0\refint\Blog.Api.dll

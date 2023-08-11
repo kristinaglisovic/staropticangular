@@ -1,0 +1,198 @@
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\ASP PROJEKAT\Blog2\BlogNeRadi\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\AZZPP2\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+D:\DIPLOMSKI2\DIPLOMSKI\backend\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.deps.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.runtimeconfig.dev.json
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\bin\Debug\net5.0\Blog.Domain.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.AssemblyReference.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.AssemblyInfo.cs
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.csproj.CopyComplete
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\refint\Blog.DataAccess.dll
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.pdb
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\Blog.DataAccess.genruntimeconfig.cache
+C:\Users\kglis\OneDrive\Desktop\ANGULAR ISPIT\ANGULAR ISPIT\ANGULAR ISPIT\API\AZZPP\Blog.DataAccess\obj\Debug\net5.0\ref\Blog.DataAccess.dll

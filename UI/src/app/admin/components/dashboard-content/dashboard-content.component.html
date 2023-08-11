@@ -1,0 +1,185 @@
+<div class="container">
+
+
+<h2 class="pb-3 text-center">{{'ADMIN.Dashboard.dashboardText' | translate}}</h2>
+
+<div class="row">
+  <div class="col-xl-4 col-sm-6 py-3 col-12" [routerLink]="['/admin/users']">
+    <div class="card shadow" style="background-color: navy">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center text-white">
+              <h3><i class="fa-solid fa-user"></i> {{users}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c1' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-sm-6 py-3 col-12" [routerLink]="['/admin/categories']">
+    <div class="card shadow bg-warning">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center" style="color: navy">
+                 <h3><i class="fa-brands fa-elementor"></i> {{categories}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c2' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-sm-6 py-3 col-12" [routerLink]="['/admin/tags']">
+    <div class="card shadow" style="background-color: navy">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center text-white">
+              <h3><i class="fa-solid fa-hashtag"></i> {{tags}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c3' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-sm-6 py-3 col-12" [routerLink]="['/admin/posts']">
+    <div class="card shadow bg-warning">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center" style="color: navy">
+              <h3><i class="fa-solid fa-paste"></i> {{posts}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c4' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-xl-4 col-sm-6 py-3 col-12" [routerLink]="['/admin/comments']">
+    <div class="card shadow" style="background-color: navy">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center text-white">
+              <h3><i class="fa-solid fa-comments"></i> {{comments}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c5' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-4 col-sm-6 py-3 col-12">
+    <div class="card shadow bg-warning">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media">
+            <div class="media-body text-center"  style="color: navy">
+              <h3><i class="fa-solid fa-images"></i> {{total}}</h3>
+              <span class="fw-bold">{{'ADMIN.Dashboard.cards.c6' | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+
+<div>
+
+
+  <div class="mat-elevation-z8 responsive_table">
+    <div class="text-center text-white py-3 add">
+      <h2 class="mb-3">{{'ADMIN.Dashboard.imagesText' | translate}}</h2>
+      <mat-divider></mat-divider>
+      <button mat-raised-button color="primary" class="mt-3" (click)="openDialog()"><mat-icon>add</mat-icon></button>
+      <p class="text-uppercase pt-2">{{'ADMIN.Dashboard.addImage' | translate}}</p>
+      <mat-divider></mat-divider>
+    </div>
+
+
+    <table mat-table [dataSource]="dataSource">
+  
+     
+
+      <!-- Position Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>Id</th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+      <ng-container matColumnDef="path">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Dashboard.imageTable.image' | translate}} </th>
+        <td class="py-2" mat-cell *matCellDef="let element"> 
+          
+      <img [src]="'http://localhost:5000/Images/'+element.path" width="100px">
+         </td>
+      </ng-container>
+  
+      <ng-container matColumnDef="user">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Dashboard.imageTable.user' | translate}} </th>
+        <td mat-cell *matCellDef="let element"> 
+          <span *ngIf="element.user;else iks">{{element.user}}</span>
+          <ng-template #iks>
+            <span ><i class="fa-solid fa-xmark"></i></span>
+          </ng-template>
+     
+          </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="posts">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Dashboard.imageTable.posts' | translate}}</th>
+        <td mat-cell *matCellDef="let element">
+          <div *ngIf="element.posts.length>0;else iks">
+              <span *ngFor="let element of element.posts;last as isLast">{{element.id}}{{isLast ? '' : ', '}}</span>
+          </div>
+          <ng-template #iks>
+            <span ><i class="fa-solid fa-xmark"></i></span>
+          </ng-template>
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="createdAt">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Dashboard.imageTable.created' | translate}} </th>
+        <td mat-cell *matCellDef="let element"> {{element.createdAt |date}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Dashboard.imageTable.delete' | translate}} </th>
+        <td mat-cell *matCellDef="let element"> 
+          <button (click)='deletePhoto(element.id)' [disabled]="element.user || element.posts.length>0" class="bg-danger ikona rounded-circle"><i class="fa-solid fa-trash-can"></i></button>
+
+        </td>
+      </ng-container>
+
+
+  
+     
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  
+     <mat-paginator [length]="total" [pageIndex]="currentPage"  [pageSizeOptions]="pageSizeOptions"
+                   (page)="pageChangeEvent($event)" [pageSize]="itemsPerPage"  aria-label="Select page"
+                  >
+    </mat-paginator>
+  </div>
+
+</div>
+
+
+</div>

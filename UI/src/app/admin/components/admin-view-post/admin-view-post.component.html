@@ -1,0 +1,323 @@
+<div class="m-1">
+  <div class="add-title text-center">
+    <h2 class="primary" class="pb-2">{{'ADMIN.Posts.editPost' | translate}}</h2>
+  </div>
+  <div>
+    <form [formGroup]="editPost" >
+
+
+     
+        
+        <!-- TITLE SR -->
+         <mat-form-field class="example-full-width">
+
+           <mat-label>{{'ADMIN.Posts.createOrEditPost.Title' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Title" required>
+
+               <mat-error *ngIf="editPost.get('Title') as control">
+                  <ng-container *ngIf="control.hasError('required')">
+                    {{'ADMIN.Posts.errors.titleRequired' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('minlength')">
+                    {{'ADMIN.Posts.errors.titleMinL' | translate}}
+                 </ng-container>
+                 
+                </mat-error> 
+        </mat-form-field>
+
+          <!-- TITLE ENG -->
+          <mat-form-field class="example-full-width">
+          <mat-label>{{'ADMIN.Posts.createOrEditPost.TitleEng' | translate}}</mat-label>
+          <input type="text" matInput formControlName="TitleEng" required>
+
+           <mat-error *ngIf="editPost.get('TitleEng') as control">
+              <ng-container *ngIf="control.hasError('required')">
+                {{'ADMIN.Posts.errors.titleEngRequired' | translate}}
+              </ng-container>
+              <ng-container *ngIf="control.hasError('minlength')">
+                {{'ADMIN.Posts.errors.titleEngMinL' | translate}}
+             </ng-container>
+             
+            </mat-error> 
+           </mat-form-field>
+         <!-- DESCRIPTION SR -->
+
+         <mat-form-field class="example-full-width">
+          <mat-label>{{'ADMIN.Posts.createOrEditPost.Description' | translate}}</mat-label>
+          <input type="text" matInput formControlName="Description" required>
+
+                <mat-error *ngIf="editPost.get('Description') as control">
+                  <ng-container *ngIf="control.hasError('required')">
+                    {{'ADMIN.Posts.errors.descriptionRequired' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('minlength')">
+                    {{'ADMIN.Posts.errors.descriptionMinL' | translate}}
+                </ng-container>
+                
+                </mat-error> 
+
+
+           </mat-form-field>
+
+            <!-- DESCRIPTION ENG-->
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.DescriptionEng' | translate}}</mat-label>
+              <input type="text" matInput formControlName="DescriptionEng" required>
+
+              <mat-error *ngIf="editPost.get('DescriptionEng') as control">
+                <ng-container *ngIf="control.hasError('required')">
+                  {{'ADMIN.Posts.errors.descriptionEngRequired' | translate}}
+                </ng-container>
+                <ng-container *ngIf="control.hasError('minlength')">
+                  {{'ADMIN.Posts.errors.descriptionEngMinL' | translate}}
+              </ng-container>
+              
+              </mat-error> 
+              </mat-form-field>
+              
+            
+            <!-- HEADING 1 SR-->
+
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Heading1' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Heading1" required>
+              <mat-error *ngIf="editPost.get('Heading1') as control">
+                <ng-container *ngIf="control.hasError('required')">
+                  {{'ADMIN.Posts.errors.heading1Required' | translate}}
+                </ng-container>
+                <ng-container *ngIf="control.hasError('minlength')">
+                  {{'ADMIN.Posts.errors.heading1MinL' | translate}}
+               </ng-container>
+               <ng-container *ngIf="control.hasError('maxlength')">
+                {{'ADMIN.Posts.errors.heading1MaxL' | translate}}
+             </ng-container>
+              
+              </mat-error> 
+              </mat-form-field>
+
+
+            <!-- HEADING 1 ENG-->
+            
+            
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Heading1Eng' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Heading1Eng" required>
+
+                  <mat-error *ngIf="editPost.get('Heading1Eng') as control">
+                    <ng-container *ngIf="control.hasError('required')">
+                      {{'ADMIN.Posts.errors.heading1EngRequired' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.heading1EngMinL' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('maxlength')">
+                    {{'ADMIN.Posts.errors.heading1EngMaxL' | translate}}
+                </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+
+
+
+            <!-- TEXT 1 SR-->
+
+            
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Text1' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Text1" required>
+
+              
+                  <mat-error *ngIf="editPost.get('Text1') as control">
+                    <ng-container *ngIf="control.hasError('required')">
+                      {{'ADMIN.Posts.errors.text1Required' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.text1MinL' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('maxlength')">
+                    {{'ADMIN.Posts.errors.text1MaxL' | translate}}
+                </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+
+
+
+
+            <!-- TEXT 1 ENG-->
+
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Text1Eng' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Text1Eng" required>
+
+               
+                  <mat-error *ngIf="editPost.get('Text1Eng') as control">
+                    <ng-container *ngIf="control.hasError('required')">
+                      {{'ADMIN.Posts.errors.text1EngRequired' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.text1EngMinL' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('maxlength')">
+                    {{'ADMIN.Posts.errors.text1EngMaxL' | translate}}
+                </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+
+
+              
+            <!-- HEADING 2 SR-->
+
+            
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Heading2' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Heading2">
+
+              <mat-error *ngIf="editPost.get('Heading2') as control">
+               
+               <ng-container *ngIf="control.hasError('minlength')">
+                {{'ADMIN.Posts.errors.heading2MinL' | translate}}
+               </ng-container>
+               <ng-container *ngIf="control.hasError('maxlength')">
+                {{'ADMIN.Posts.errors.heading2MaxL' | translate}}
+               </ng-container>
+              
+              </mat-error> 
+             
+              </mat-form-field>
+
+
+
+            <!-- HEADING 2 ENG-->
+
+            
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Heading2Eng' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Heading2Eng">
+
+                  <mat-error *ngIf="editPost.get('Heading2Eng') as control">
+                  
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.heading2EngMinL' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('maxlength')">
+                      {{'ADMIN.Posts.errors.heading2EngMaxL' | translate}}
+                    </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+              
+
+
+
+            <!-- TEXT 2 SR-->
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Text2' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Text2">
+
+                  <mat-error *ngIf="editPost.get('Text2') as control">
+                   
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.text2MinL' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('maxlength')">
+                    {{'ADMIN.Posts.errors.text2MaxL' | translate}}
+                   </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+
+            
+            <!-- TEXT 2 ENG-->
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'ADMIN.Posts.createOrEditPost.Text2Eng' | translate}}</mat-label>
+              <input type="text" matInput formControlName="Text2Eng">
+                  <mat-error *ngIf="editPost.get('Text2Eng') as control">
+                      
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'ADMIN.Posts.errors.text2EngMinL' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('maxlength')">
+                    {{'ADMIN.Posts.errors.text2EngMaxL' | translate}}
+                  </ng-container>
+                  
+                  </mat-error> 
+              </mat-form-field>
+
+
+            <!-- Kategorije --> 
+ 
+            <mat-form-field appearance="fill" class="bg-dark">
+              <mat-label [translate]="'HOME.categories'"></mat-label>
+              <mat-select formControlName="CategoriesIds" multiple>
+                  <mat-option *ngFor="let c of onlyActive(categories)" [value]="c.id" (onSelectionChange)="selectedCategories($event)">
+                      {{c.name}} ({{c.activePostsCount}})
+                    </mat-option>
+              </mat-select>
+              <mat-error *ngIf="editPost.get('CategoriesIds') as control">
+                  <ng-container  *ngIf="control.hasError('required')">
+                    {{'ADMIN.Posts.errors.categIds' | translate}}
+                  </ng-container>
+               </mat-error>
+            </mat-form-field>
+
+            <!-- Tagovi -->
+
+              <mat-form-field appearance="fill" class="bg-dark">
+                <mat-label [translate]="'HOME.tags'"></mat-label>
+                  <mat-select formControlName="TagsIds" multiple>
+                      <mat-option *ngFor="let t of onlyActive(tags)" [value]="t.id" (onSelectionChange)="selectedTags($event)">
+                          {{t.name}} ({{t.activePostsCount}})
+                        </mat-option>
+                  </mat-select>
+                  <mat-error *ngIf="editPost.get('TagsIds') as control">
+                    <ng-container  *ngIf="control.hasError('required')">
+                      {{'ADMIN.Posts.errors.tagsIds' | translate}}
+                    </ng-container>
+                 </mat-error>
+                </mat-form-field> 
+
+
+            <!-- Slike -->
+
+             
+            <mat-form-field appearance="fill" class="bg-dark">
+              <mat-label>{{'ADMIN.Dashboard.imageTable.image' | translate}}</mat-label>
+                <mat-select formControlName="ImagesIds" multiple>
+                   <mat-select-trigger>
+                      {{selectedImagesIds.length}}
+                   </mat-select-trigger>
+                    <mat-option *ngFor="let i of images"  [value]="i.id" (onSelectionChange)="selectedImages($event)">
+                      <img [src]="'http://localhost:5000/Images/'+i.path" width="150px">
+                  
+                    </mat-option>
+                </mat-select>
+                <mat-error *ngIf="editPost.get('ImagesIds') as control">
+                  <ng-container  *ngIf="control.hasError('required')">
+                    {{'ADMIN.Posts.errors.imagesIds' | translate}}
+                  </ng-container>
+               </mat-error>
+              </mat-form-field>
+
+
+           
+            
+      
+     
+
+
+      <p class="bg-danger text-center mt-3 py-3" *ngIf="errorMsg">{{errorMsg}}</p>
+      <p class="bg-success text-center mt-3 py-3" *ngIf="resp">{{resp}}</p> 
+
+      <div class="text-center mt-3">
+       
+        <button mat-raised-button mat-dialog-close type="button" class="Discard-btn me-2">{{'ADMIN.buttons.close' | translate}}</button>
+
+        <button mat-raised-button type="submit" color="primary" [disabled]="editPost.invalid" (click)="onSubmit()" class="Update-btn">{{'ADMIN.buttons.edit' | translate}}</button>
+        
+      </div>
+
+    </form>
+  </div>
+</div>

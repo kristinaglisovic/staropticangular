@@ -1,0 +1,16 @@
+
+<div *ngFor="let post of onlyActive(posts);">
+<a  [routerLink]="['/home/posts',post.id]">
+<div class="item d-flex align-items-center">
+        
+      <div class="image pt-2"><img src="http://localhost:5000/Images/{{post.images[0]}}" alt="{{post.title}}" class="img-fluid"></div>
+      <div class="title"><strong>{{post.title}}</strong>
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="views"><i class="fa-solid fa-clock"></i>{{post.createdAt | date: 'dd/MM/yyyy hh:mm'}}</div>
+          <div class="views"><i class="fa-solid fa-heart"></i>{{post.likes}}</div>
+          <div class="comments"><i class="fa-solid fa-comments"></i>{{post.commentsCount}}</div>
+        </div>
+      </div>
+    </div>
+</a>
+</div>

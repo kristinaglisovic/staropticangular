@@ -1,0 +1,12 @@
+<nav class="navbar borderNavigacija navigacija pt-4">
+    <div class="container logo">
+        <a routerLink="/home" class="navbar-brand"><img src="assets/img/logo1.PNG" alt="logo" class="img-fluid"> </a>
+      <div class="d-flex linkovi">
+        <span class="px-2 text-dark"><a routerLink="/home/posts" routerLinkActive="active-link2" class='text-dark' [translate]="'HOME.navigation.l1'"></a></span>
+       <span class="px-2" *ngIf="!auth.user"><a class='text-dark' routerLink="/home/login" routerLinkActive="active-link2" [translate]="'HOME.navigation.l2'"></a></span>
+       <span class="px-2" *ngIf="!auth.user"><a routerLink="/home/register" routerLinkActive="active-link2" class='text-dark' [translate]="'HOME.navigation.l3'"></a></span>
+       <span class="px-2" *ngIf="auth.user && auth.user.role=='Administrator'"><a class='text-dark'  routerLink="/admin" routerLinkActive="active-link2" [translate]="'HOME.navigation.l4'"></a></span>
+       <span class="px-2" *ngIf="auth.user"><a (click)="logout()" [translate]="'HOME.navigation.l5'"></a></span>
+      </div>
+    </div>
+  </nav>

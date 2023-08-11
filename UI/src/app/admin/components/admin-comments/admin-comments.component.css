@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+  }
+  .mat-paginator{
+    width: 100%;
+  }
+  .ikona{
+    font-size: 18px;
+}
+
+ 
+  @media(max-width: 800px) {
+    .responsive_table {
+        overflow-x: auto !important;
+    }
+
+    .mat-table {
+        min-width:800px;
+    }
+    .mat-paginator{
+        min-width:800px;
+    }
+}

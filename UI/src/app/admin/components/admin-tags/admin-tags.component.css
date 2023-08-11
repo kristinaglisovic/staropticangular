@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+  }
+  .mat-paginator{
+    width: 100%;
+  }
+  .ikona{
+    font-size: 18px;
+}
+
+ 
+  @media(max-width: 800px) {
+    .responsive_table {
+        overflow-x: auto !important;
+    }
+
+    .mat-table {
+        min-width:800px;
+    }
+    .mat-paginator{
+        min-width:800px;
+    }
+    .add{
+      overflow-x: auto;
+      min-width: 800px;
+    }
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add{
+  background-color: #424242;
+  width: 100%;
+}

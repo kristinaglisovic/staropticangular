@@ -1,0 +1,688 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Api.Controllers.CategoriesController.Get(Blog.Application.UseCases.DTO.Searches.CategoriesPagedSearch,Blog.Application.UseCases.Queries.IGetCategoriesQuery)">
+            <summary>
+            Get all categories with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All categories</returns>
+            
+            <response code="200">Categories are returned.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.CategoriesController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetCategoryQuery)">
+            <summary>
+            Get one category.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One category</returns>
+            
+            <response code="200">Category is found.</response>
+            <response code="404">Category is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.CategoriesController.Post(Blog.Application.UseCases.DTO.Category.CreateCategoryDTO,Blog.Application.UseCases.Commands.ICreateCategoryCommand)">
+             <summary>
+             Creates new category.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created Category</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Categories
+                 {
+                    "name": "New name",
+                    "description": "New Desc",
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.CategoriesController.Patch(System.Int32,Blog.Application.UseCases.Commands.ICategoryActivationCommand)">
+            <summary>
+            Category deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Category is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Category to deactivate is not found.</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.CategoriesController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteCategoryUsingIntCommand)">
+            <summary>
+            Category delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Category is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Category to delete is not found.</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.CommentsController.Get(Blog.Application.UseCases.DTO.Searches.CommentsPagedSearch,Blog.Application.UseCases.Queries.IGetCommentsQuery)">
+            <summary>
+            Get all comments with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All comments </returns>
+            
+            <response code="200">Comments are returned.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.CommentsController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetCommentQuery)">
+            <summary>
+            Get one comment.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One comment</returns>
+            
+            <response code="200">Comment is found.</response>
+            <response code="404">Comment is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.CommentsController.Post(Blog.Application.UseCases.DTO.Comment.CreateCommentDTO,Blog.Application.UseCases.Commands.ICreateCommentCommand)">
+             <summary>
+             Creates new comment.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created Comment</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Comments
+                 {
+                      "userId": 1,
+                      "postId": 5,
+                      "text": "string"
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="409">Conflict.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+             
+        </member>
+        <member name="M:Blog.Api.Controllers.CommentsController.Patch(System.Int32,Blog.Application.UseCases.Commands.ICommentActivationCommand)">
+            <summary>
+            Comment deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Comment is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Comment to deactivate is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.CommentsController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteCommentUsingIntCommand)">
+            <summary>
+            Comment delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Comment is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Comment to delete is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.DataController.Get(Blog.DataAccess.BlogDbContext)">
+            <summary>
+            Insert data in db
+            </summary>
+            <param name="context"></param> 
+            <returns>Inserted data</returns>
+            
+            <response code="201">Created</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.ImagesController.Get(Blog.Application.UseCases.DTO.Searches.ImagePagedSearch,Blog.Application.UseCases.Queries.IGetImagesQuery)">
+            <summary>
+            Get all images with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All images</returns>
+            
+            <response code="200">Images are returned.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.ImagesController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetImageQuery)">
+            <summary>
+            Get one image.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One image</returns>
+            
+            <response code="200">Image is found.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Image is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.ImagesController.Post(Blog.Api.DTO.ImageImageApiDto,Blog.Application.UseCases.Commands.ICreateImageCommand)">
+            <summary>
+            Creates new image.
+            </summary>
+            <param name="dto"></param> 
+            <param name="command"></param>
+            <returns>A newly created Image</returns>
+            <response code="201">Successfull creation.</response> 
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.ImagesController.Patch(System.Int32,Blog.Application.UseCases.Commands.ISoftDeleteImageUsingIntCommand)">
+            <summary>
+            Image deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Image is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Image to deactivate is not found.</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.ImagesController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteImageUsingIntCommand)">
+             <summary>
+             Image delete
+             </summary>
+             <param name="id"></param> 
+             <param name="command"></param>
+             <returns>Image is deleted</returns>
+            
+             <response code="204">No content.</response>
+             <response code="401">Unauthorized.</response>
+             <response code="404">Image to delete is not found.</response>
+             <response code="409">Conflict.</response>
+             <response code="500">Unexpected server error.</response>
+             
+        </member>
+        <member name="M:Blog.Api.Controllers.LikesController.Get(Blog.Application.UseCases.DTO.Searches.LikePagedSearch,Blog.Application.UseCases.Queries.IGetLikesQuery)">
+            <summary>
+            Get all likes with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All likes</returns>
+            
+            <response code="200">Likes are returned.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.LikesController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetLikeQuery)">
+            <summary>
+            Get one like.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One like</returns>
+            
+            <response code="200">Like is found.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Like is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.LikesController.Post(Blog.Application.UseCases.DTO.Like.CreateLikeDTO,Blog.Application.UseCases.Commands.ICreateLikeCommand)">
+             <summary>
+             Creates new like.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created Like</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Likes
+                 {
+                      "userId": 1,
+                      "postId": 5,
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="409">Conflict.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+             
+        </member>
+        <member name="M:Blog.Api.Controllers.LikesController.Patch(System.Int32,Blog.Application.UseCases.Commands.ISoftDeleteLikeUsingIntCommand)">
+            <summary>
+            Like deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Like is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Like to deactivate is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.LikesController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteLikeUsingIntCommand)">
+            <summary>
+            Like delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Like is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Like to delete is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostCategoryController.Get(Blog.Application.UseCases.DTO.Searches.PostCategoryPagedSearch,Blog.Application.UseCases.Queries.IGetPostCategoryQuery)">
+            <summary>
+            Get all posts categories with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All posts with categories</returns>
+            
+            <response code="200">Posts with categories are returned.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.PostImagesController.Get(Blog.Application.UseCases.DTO.Searches.PostImagesPagedSearch,Blog.Application.UseCases.Queries.IGetPostImagesQuery)">
+            <summary>
+            Get all posts categories with images.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All posts with categories</returns>
+            
+            <response code="200">Posts with images are returned.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.PostsController.Get(Blog.Application.UseCases.DTO.Searches.PostPagedSearch,Blog.Application.UseCases.Queries.IGetPostsQuery)">
+            <summary>
+            Get all posts with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All posts</returns>
+            
+            <response code="200">Posts are returned.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostsController.Get(System.Int32,System.Nullable{System.Boolean},Blog.Application.UseCases.Queries.IGetPostQuery)">
+            <summary>
+            Get one post.
+            </summary>
+            <param name="id"></param> 
+            <param name="eng"></param> 
+            <param name="query"></param>
+            <returns>One post</returns>
+            
+            <response code="200">Post is found.</response>
+            <response code="404">Post is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostsController.Post(Blog.Application.UseCases.DTO.Post.CreatePostDTO,Blog.Application.UseCases.Commands.ICreatePostCommand)">
+             <summary>
+             Creates new post.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created Post</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Posts
+                 {
+                    "title": "New Title",
+                    "description": "New Desc",
+                    "userId": 1,
+                    "categoriesIds": [
+                              1,2   
+                          ],
+                    "tagsIds": [
+                              1
+                          ],
+                    "imagesIds": [
+                              2,4
+                          ]
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostsController.Patch(System.Int32,Blog.Application.UseCases.Commands.ISoftDeletePostUsingIntCommand)">
+            <summary>
+            Post deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Post is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Post to deactivate is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostsController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeletePostUsingIntCommand)">
+            <summary>
+            Delete a post
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Post is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Post to delete is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.PostTagsController.Get(Blog.Application.UseCases.DTO.Searches.PostTagsPagedSearch,Blog.Application.UseCases.Queries.IGetPostTagsQuery)">
+            <summary>
+            Get all posts tags with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All posts with tags</returns>
+            
+            <response code="200">Posts with tags are returned.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.RolesController.Get(Blog.Application.UseCases.DTO.Searches.BaseSearch,Blog.Application.UseCases.Queries.IGetRolesQuery)">
+            <summary>
+            Get roles.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All roles</returns>
+            
+            <response code="200">Roles are returned.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.RolesController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetRoleQuery)">
+            <summary>
+            Get one role.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One role</returns>
+            
+            <response code="200">Role is found.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Role is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.RolesController.Post(Blog.Application.UseCases.DTO.Roles.CreateRoleDTO,Blog.Application.UseCases.Commands.ICreateRoleCommand)">
+             <summary>
+             Creates new role.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created role</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Roles
+                 {
+                    "name": "New Role       
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.RolesController.Patch(System.Int32,Blog.Application.UseCases.Commands.ISoftDeleteRoleUsingIntCommand)">
+            <summary>
+            Role deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Role is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="409">Conflict.</response>
+            <response code="404">Role to deactivate is not found.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.RolesController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteRoleUsingIntCommand)">
+            <summary>
+            Role delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Role is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="409">Conflict.</response>
+            <response code="404">Role to delete is not found.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.TagsController.Get(Blog.Application.UseCases.DTO.Searches.TagPagedSearch,Blog.Application.UseCases.Queries.IGetTagsQuery)">
+            <summary>
+            Get all tags with pagination.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All tags</returns>
+            
+            <response code="200">Tags are returned.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.TagsController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetTagQuery)">
+            <summary>
+            Get one tag.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One tag</returns>
+            
+            <response code="200">Tag is found.</response>
+            <response code="404">Tag is not found.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.TagsController.Post(Blog.Application.UseCases.DTO.Tag.CreateTagDTO,Blog.Application.UseCases.Commands.ICreateTagCommand)">
+             <summary>
+             Creates new tag.
+             </summary>
+             <param name="dto"></param> 
+             <param name="command"></param>
+             <returns>A newly created Tag</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Tags
+                 {
+                    "name": "New Name"
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="422">Validation failure.</response>
+             <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.TagsController.Patch(System.Int32,Blog.Application.UseCases.Commands.ITagActivationCommand)">
+            <summary>
+            Tag deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Tag is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Tag to deactivate is not found.</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.TagsController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteTagUsingIntCommand)">
+            <summary>
+            Tag delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>Tag is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">Tag to delete is not found.</response>
+            <response code="409">Conflict.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.TokenController.Post(Blog.Api.Controllers.TokenRequest)">
+             <summary>
+             Creates new token.
+             </summary>
+             <param name="request"></param> 
+             <returns>A newly created user token</returns>
+             /// <remarks>
+             Sample request:
+            
+                 POST / api/Token
+                 {
+                    "email": "email"
+                    "password":"password"
+                 }
+             </remarks> 
+             <response code="201">Successfull creation.</response> 
+             <response code="401">Unauthorized.</response>
+             <response code="500">Unexpected server error.</response>
+             
+        </member>
+        <member name="M:Blog.Api.Controllers.UseCaseLogsController.Get(Blog.Application.UseCases.UseCaseLogSearch,Blog.Application.UseCases.Queries.IGetUseCaseLogsQuery)">
+            <summary>
+            Get use case logs.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All use case logs</returns>
+            
+            <response code="200">Use case logs are returned.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.UsersController.Get(Blog.Application.UseCases.DTO.Searches.UsersPagedSearch,Blog.Application.UseCases.Queries.IGetUsersQuery)">
+            <summary>
+            Get users.
+            </summary>
+            <param name="search"></param> 
+            <param name="query"></param>
+            <returns>All users</returns>
+            
+            <response code="200">Users are returned.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.UsersController.Get(System.Int32,Blog.Application.UseCases.Queries.IGetUserQuery)">
+            <summary>
+            Get one user.
+            </summary>
+            <param name="id"></param> 
+            <param name="query"></param>
+            <returns>One User</returns>
+            
+            <response code="200">User is found.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">User is not found.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.UsersController.Post(Blog.Api.DTO.RegisterImageApiDto,Blog.Application.UseCases.Commands.IRegisterUserCommand)">
+            <summary>
+            User Registration
+            </summary>
+            <param name="dto"></param> 
+            <param name="command"></param>
+            <returns>A newly created user</returns>
+            <response code="201">Successfull creation.</response> 
+            <response code="401">Unauthorized.</response>
+            <response code="422">Validation failure.</response>
+            <response code="500">Unexpected server error.</response>
+        </member>
+        <member name="M:Blog.Api.Controllers.UsersController.Patch(System.Int32,Blog.Application.UseCases.Commands.IUserActivationCommand)">
+            <summary>
+            User deactivation
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>User is deactivated</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">User to deactivate is not found.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.UsersController.Delete(System.Int32,Blog.Application.UseCases.Commands.IDeleteUserUsingIntCommand)">
+            <summary>
+            User delete
+            </summary>
+            <param name="id"></param> 
+            <param name="command"></param>
+            <returns>User is deleted</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="404">User to delete is not found.</response>
+            <response code="500">Unexpected server error.</response>
+            
+            
+            
+        </member>
+        <member name="M:Blog.Api.Controllers.UserUseCasesController.Put(Blog.Application.UseCases.DTO.User.UpdateUserUseCasesDTO,Blog.Application.UseCases.Commands.IUpdateUserUseCasesCommand)">
+            <summary>
+            Update user use cases
+            </summary>
+            <param name="request"></param> 
+            <param name="command"></param>
+            <returns>Updated user cases</returns>
+            
+            <response code="204">No content.</response>
+            <response code="401">Unauthorized.</response>
+            <response code="500">Unexpected server error.</response>
+            
+        </member>
+    </members>
+</doc>

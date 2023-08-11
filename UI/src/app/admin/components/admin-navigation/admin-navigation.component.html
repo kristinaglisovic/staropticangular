@@ -1,0 +1,32 @@
+ <nav class="navbar navigationn navbar-expand-lg navbar-dark bg-dark pt-5 pb-4">
+  <div class="container">
+      <!-- Site Logo Here -->
+      <span class="text-white fw-bold"><i class="fa-solid fa-gauge"></i> SO Blog - Admin Panel</span>
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobileToggle" aria-controls="navbarMobileToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMobileToggle">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-link mx-2"><a routerLink="/home" class="text-white"><i class="fa-solid fa-home"></i></a></li>
+            <li class="nav-link mx-2"  routerLinkActive="active-link"><a routerLink="/admin/dashboard" class="text-white">{{'ADMIN.links.dashboard' | translate}}</a></li>
+            <li class="nav-link mx-2" routerLinkActive="active-link" ><a routerLink="/admin/tags" class="text-white">{{'ADMIN.links.tags' | translate}}</a></li>
+            <li class="nav-link mx-2"  routerLinkActive="active-link" ><a routerLink="/admin/categories"class="text-white">{{'ADMIN.links.categories' | translate}}</a></li>
+            <li class="nav-link mx-2" routerLinkActive="active-link"><a routerLink="/admin/users"  class="text-white">{{'ADMIN.links.users' | translate}}</a></li>
+            <li class="nav-link mx-2"  routerLinkActive="active-link"><a routerLink="/admin/posts" class="text-white">{{'ADMIN.links.posts' | translate}}</a></li>
+            <li class="nav-link mx-2" routerLinkActive="active-link"><a routerLink="/admin/comments"  class="text-white">{{'ADMIN.links.comments' | translate}}</a></li>
+          </ul>
+
+          <!-- Right Side -->
+          <div class="btn-group float-end">
+              <a class="dropdown-toggle text-decoration-none text-light" data-bs-toggle="dropdown">
+              <i class="bi bi-person-circle"></i>
+              <span>{{auth.user.username}}</span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a (click)="logout()" class="dropdown-item"><i class="bi bi-box-arrow-right"></i>{{'ADMIN.links.signOut' | translate}}</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</nav>

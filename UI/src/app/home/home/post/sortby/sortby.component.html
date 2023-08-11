@@ -1,0 +1,14 @@
+<div class="col-md-4 py-2">
+ <mat-form-field appearance="fill" class="bg-secondary">
+  <mat-label [translate]="'HOME.sortBy.label'"></mat-label>
+                <mat-select (selectionChange)="sortBy($event)">
+                    <mat-option value="Komentari rastuće">{{'HOME.sortBy.o1'| translate}}</mat-option>
+                    <mat-option value="Komentari opadajuće">{{'HOME.sortBy.o2'| translate}}</mat-option>
+                    <mat-option value="Lajkovi rastuće">{{'HOME.sortBy.o3'| translate}}</mat-option>
+                    <mat-option value="Lajkovi opadajuće">{{'HOME.sortBy.o4'| translate}}</mat-option>
+                    <mat-option value="Podrazumevano">{{'HOME.sortBy.o5'| translate}}</mat-option>
+                </mat-select>
+              </mat-form-field> 
+     
+</div>
+  

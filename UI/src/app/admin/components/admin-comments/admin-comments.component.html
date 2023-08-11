@@ -1,0 +1,107 @@
+<div class="container">
+
+
+  
+  <h2 class="py-4 text-center">{{'ADMIN.Comments.commentsText' | translate}}</h2>
+
+  <div class="mat-elevation-z8 responsive_table">
+    <table mat-table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> Id </th>
+        <td mat-cell *matCellDef="let element">{{element.id}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="author">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.author' | translate}}</th>
+        <td class="py-2" mat-cell *matCellDef="let element">{{element.username}}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="comment">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.comment' | translate}}</th>
+        <td mat-cell *matCellDef="let element"> 
+          {{element.text}}
+        </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="look">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.look' | translate}}</th>
+        <td mat-cell *matCellDef="let element">
+          <button [disabled]='!element.isActive' [routerLink]="['/home/posts',element.post.id]"
+          class="btn bg-info text-white" outlined><i class="fa-solid fa-eye"></i></button>
+        </td>
+      </ng-container>
+
+
+
+      <ng-container matColumnDef="active">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.active' | translate}}</th>
+        <td mat-cell *matCellDef="let element">
+          <span *ngIf="element.isActive;else iks"><i class="fa-solid fa-check"></i></span>
+          <ng-template #iks>
+            <span ><i class="fa-solid fa-xmark"></i></span>
+          </ng-template></td>
+      </ng-container>
+
+
+
+      <ng-container matColumnDef="createdAt">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.createdAt' | translate}}</th>
+        <td mat-cell *matCellDef="let element"> {{element.commentedAt |date}} </td>
+      </ng-container>
+
+
+      <ng-container matColumnDef="updatedAt">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.updatedAt' | translate}}</th>
+        <td mat-cell *matCellDef="let element">
+          <span *ngIf="element.updatedAt;else iks">{{element.updatedAt |date}}</span>
+
+          <ng-template #iks>
+            <span ><i class="fa-solid fa-xmark"></i></span>
+          </ng-template></td>
+      </ng-container>
+
+
+
+      <ng-container matColumnDef="delete">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.delete' | translate}}</th>
+        <td mat-cell *matCellDef="let element"> 
+           <button (click)='deleteComment(element.id)' [disabled]="element.postsCount>0 || element.activePostsCount>0" class="bg-danger ikona btn text-white"><i class="fa-solid fa-trash-can"></i></button> 
+
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="activate">
+        <th mat-header-cell *matHeaderCellDef>{{'ADMIN.Comments.commentsTable.activate' | translate}}</th>
+
+        <td mat-cell *matCellDef="let element">
+         <button  *ngIf="element.isActive;else drugo" class="bg-danger text-white btn ikona" (click)="changeStatus(element.id)"><i class="fa-solid fa-circle-minus"></i></button>
+
+          <ng-template #drugo>
+           <button class="bg-success btn text-white ikona" (click)="changeStatus(element.id)"><i class="fa-solid fa-check"></i></button>
+          </ng-template></td>
+      </ng-container>
+
+  
+     
+  
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  
+     <mat-paginator [length]="total" [pageIndex]="currentPage"  [pageSizeOptions]="pageSizeOptions"
+                   (page)="pageChangeEvent($event)" [pageSize]="itemsPerPage"  aria-label="Select page"
+                  >
+    </mat-paginator>
+  </div>
+
+
+</div>
+
+
+
+
+

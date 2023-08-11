@@ -1,0 +1,45 @@
+<div class="m-1">
+    <div class="add-title text-center">
+      <h2 class="primary" class="pb-2">{{'ADMIN.Dashboard.addImage' | translate}}</h2>
+    </div>
+    <div>
+      <form [formGroup]="addImage" >
+
+
+
+        <div class="w-100 text-center pb-3">
+            <p class="font-weight-bold text-start">{{'ADMIN.Dashboard.imageText' | translate}}</p>
+
+              <input type="file" class="file-input w-100 mb-2" (change)="onFileChange($event)"
+                #fileUpload>
+
+                <mat-error *ngIf="addImage.get('imageType') as control">
+                  <ng-container *ngIf="control.hasError('pattern')">
+                       {{'HOME.Registration.errors.imageExtension' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="empty && !control.hasError('pattern')">
+                    {{'HOME.Registration.errors.imageExtension' | translate}}
+                  </ng-container>
+                      
+            </mat-error>
+        </div>
+
+      
+       
+
+  
+        <p class="bg-danger text-center mt-3 py-3" *ngIf="errorMsg">{{errorMsg}}</p>
+        <p class="bg-success text-center mt-3 py-3" *ngIf="resp">{{resp}}</p> 
+
+        <div class="text-center mt-3">
+         
+          <button mat-raised-button mat-dialog-close type="button" class="me-2">{{'ADMIN.buttons.close' | translate}}</button>
+
+          <button mat-raised-button type="submit" color="primary" (click)="onSubmit()" [disabled]="addImage.invalid || this.empty" class="Update-btn">{{'ADMIN.buttons.add' | translate}}</button>
+          
+        </div>
+  
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,18 @@
+.active-link2{
+    color: black !important;
+    font-weight: bold;
+}
+
+/*482*/
+
+@media (max-width: 482px) {
+     .linkovi{
+        align-items: center;
+        justify-content: center;
+     }
+     .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+  }

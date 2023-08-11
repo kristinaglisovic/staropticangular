@@ -1,0 +1,96 @@
+<main class="post blog-post col-lg-12 p-0 " *ngIf="isReady">
+    <div class="container">
+        <div class="post-single">
+            <div *ngIf="auth.user">
+                <div class="text-end">
+                    <div *ngIf="isLiked(post); else disliked;">
+                        <button (click)="likePost(post.id)"  class="bg-danger btn btn-lg"><i class="fa-solid fa-heart-crack"></i></button>
+                    </div>
+                    <ng-template #disliked>
+                        <button (click)="likePost(post.id)" class="bg-warning btn btn-lg"><i class='fa-solid fa-heart'></i></button>
+                    </ng-template>
+                
+                  </div>
+              </div>
+            <div class="post-thumbnail"><img src="http://localhost:5000/Images/{{post.images[0]}}" alt="{{post.title}}" class="img-fluid">
+                
+              
+                <ul class="list-inline mb-3">
+                    <li *ngFor="let c of post.categories; last as isLast" class="text-secondary pt-3 list-inline-item">{{c}}{{isLast?'':', '}}</li>
+                    
+                  </ul>
+
+                  
+                  <h1 class="pt-2">{{post.title}}</h1></div>
+                 
+            <div class="post-details">
+                <div class="post-meta d-flex justify-content-between">
+                    <div *ngFor='let c of post.categories' class="category">{{c.name}}</div>
+                </div>
+                <div class="post-footer mt-0 d-flex align-items-center flex-column flex-sm-row"><div class="author d-flex align-items-center flex-wrap">
+                        <div class="title"><span>{{'HOME.singlePost.author' | translate}} {{post.author}}</span></div></div>
+                    <div class="d-flex align-items-center flex-wrap">
+                        <div class="date"><i class="icon-clock"></i>{{post.createdAt | date}}</div>
+                        <div class="title"><i class="fa-solid fa-heart"></i>{{post.likes}}</div>
+                        <div class="comments meta-last"><i class="fa-solid fa-comments"></i>{{post.commentsCount}}</div>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p class="lead">{{post.description}}</p>
+                </div>
+
+                <div class="post-body">
+                    <h4 *ngIf="post.heading1">{{post.heading1}}</h4>
+                    <p *ngIf='post.text1'>{{post.text1}}</p>
+                </div>
+
+                <div *ngIf="post.images.length>1">
+                    <h1 class="h2 pb-3 font-weight-normal">{{'HOME.singlePost.Gallery' | translate}}</h1>
+                    <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+                </div>
+                    
+            
+
+
+                <div class="post-body">
+                    <h4 *ngIf="post.heading2">{{post.heading2}}</h4>
+                    <p *ngIf='post.text2'>{{post.text2}}</p>
+                </div>
+
+
+
+                <ul class="list-inline mb-5">
+                    <li *ngFor="let tag of post.tags" class="text-secondary border p-1 list-inline-item">#{{tag}}</li>
+                    
+                  </ul>
+
+
+                 <div class="post-comments">
+                    <header>
+                        <h3 class="h6">{{'HOME.singlePost.comments' | translate}}<span class="no-of-comments">({{post.commentsCount}})</span></h3>
+                    </header>
+
+                    <div class="comment" *ngFor="let c of post.comments">
+                        <div class="comment-body">
+                                <div class="title">
+                                    
+                                    <strong><i class="fa-solid fa-user me-3"></i>{{c.user}}</strong>
+                                    <span class="date">{{c.commentedAt | date}}</span>
+                                </div>
+                            <p class="py-1">{{c.comment}}  <i size="15px" *ngIf="auth.user && c.user==auth.user.username" (click)="deleteComment(c.id)" class="p-2 ms-2 shadow-sm rounded-circle text-danger bg-white fas fa-trash-can">
+                            </i></p>
+                          
+                          
+                        </div>
+                    </div>
+                 
+
+                </div>
+                <ng-container>
+                    <app-create-comment [PostId]="post.id"></app-create-comment>
+                </ng-container>
+        </div>
+    </div>
+    </div>
+
+</main>

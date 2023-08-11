@@ -1,0 +1,97 @@
+<form class='p-5' [formGroup]="editCategory">
+  <button mat-icon-button class="close-button" mat-dialog-close>
+  <mat-icon class="close-icon" color="warn">close</mat-icon>
+</button>
+
+<h1 mat-dialog-title>{{'ADMIN.Categories.editCategory' | translate}}</h1>
+<div mat-dialog-content>
+  <mat-form-field class="example-full-width">
+      <mat-label>{{'ADMIN.Categories.createOrEditCategory.nameSr' | translate}}</mat-label>
+
+
+      <!-- Name Sr Us -->
+      <input type="text" matInput formControlName="nameSr"
+             placeholder="Ex. Armani Sr">
+      <mat-error *ngIf="editCategory.get('nameSr') as control">
+          <ng-container *ngIf="control.hasError('required')">
+            {{'ADMIN.Categories.createOrEditCategory.errors.name.required' | translate}}
+          </ng-container>
+          <ng-container *ngIf="control.hasError('minlength')">
+            {{'ADMIN.Categories.createOrEditCategory.errors.name.minlength' | translate}}
+          </ng-container>
+          <ng-container *ngIf="control.hasError('maxlength')">
+            {{'ADMIN.Categories.createOrEditCategory.errors.name.maxlength' | translate}}
+          </ng-container>
+      </mat-error>
+    </mat-form-field>
+
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{'ADMIN.Categories.createOrEditCategory.descriptionSr' | translate}}</mat-label>
+      <input type="text" matInput formControlName="descriptionSr"
+             placeholder="Ex. Armani Us">
+      <mat-error *ngIf="editCategory.get('descriptionSr') as control">
+        <ng-container *ngIf="control.hasError('required')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.required' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('minlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.minlength' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('maxlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.maxlength' | translate}}
+        </ng-container>
+      </mat-error>
+    </mat-form-field>
+
+    
+    <mat-form-field class="example-full-width">
+      <mat-label>{{'ADMIN.Categories.createOrEditCategory.nameUs' | translate}}</mat-label>
+      <input type="text" matInput formControlName="nameUs"
+             placeholder="Ex. Armani Us">
+      <mat-error *ngIf="editCategory.get('nameUs') as control">
+        <ng-container *ngIf="control.hasError('required')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.name.required' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('minlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.name.minlength' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('maxlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.name.maxlength' | translate}}
+        </ng-container>
+      </mat-error>
+    </mat-form-field>
+
+
+    <!-- Desc Sr Us -->
+   
+
+    <mat-form-field class="example-full-width">
+      <mat-label>{{'ADMIN.Categories.createOrEditCategory.descriptionUs' | translate}}</mat-label>
+      <input type="text" matInput formControlName="descriptionUs"
+             placeholder="Ex. Armani Us">
+      <mat-error *ngIf="editCategory.get('descriptionUs') as control">
+        <ng-container *ngIf="control.hasError('required')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.required' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('minlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.minlength' | translate}}
+        </ng-container>
+        <ng-container *ngIf="control.hasError('maxlength')">
+          {{'ADMIN.Categories.createOrEditCategory.errors.description.maxlength' | translate}}
+        </ng-container>
+      </mat-error>
+    </mat-form-field>
+
+
+    
+</div>
+<p class="bg-danger text-center px-3" *ngIf="errorMsg">{{errorMsg}}</p>
+<p class="bg-success text-center px-3" *ngIf="resp">{{resp}}</p>
+<div mat-dialog-actions class="d-flex align-items-center justify-content-center">
+  <button mat-button mat-dialog-close>{{'ADMIN.buttons.close' | translate}}</button>
+  <button mat-raised-button color="primary"  cdkFocusInitial (click)="onSubmit()" [disabled]="editCategory.invalid">{{'ADMIN.buttons.edit' | translate}}</button>
+</div>
+
+
+
+</form>

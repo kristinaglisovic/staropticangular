@@ -1,0 +1,44 @@
+mat-form-field {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+ 
+  @media (max-width: 800px) {
+    .btn-sec {
+      margin-right: 1rem !important;
+    }
+  }
+  @media (max-width: 600px) {
+    .btn-sec {
+      margin-right: 1rem !important;
+    }
+  }
+
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .delete-button {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 33px;
+    border-radius: 50% !important;
+    font-size: 15px !important;
+
+  }
+  
+  .image-container:hover .delete-button {
+    display: block;
+  }
+  
+
+  @media (max-width: 368px) {
+    .delete-button {
+      right: 20px;
+    }
+  }
+ 
+

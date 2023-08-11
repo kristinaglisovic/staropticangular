@@ -1,0 +1,138 @@
+<div class="m-1">
+      <div class="add-title text-center">
+        <h2 class="primary" class="pb-2">{{'ADMIN.Users.editUser' | translate}}</h2>
+      </div>
+      <div>
+        <form [formGroup]="editUser" >
+
+
+
+          <div class="w-100 text-center pb-3">
+            <div *ngIf="userdata.image!='No image';else iks;" class="image-container">
+              <span class="font-weight-bold me-4 ">{{'ADMIN.Users.createOrEditUser.profileImage' | translate}}</span>
+           
+              <img [src]="'http://localhost:5000/Images/'+userdata.image" width="100px" class="rounded-circle shadow">
+               <button class="delete-button btn bg-danger" (click)="deletePhoto(userdata.imageId)"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+           
+
+
+            <ng-template #iks>
+              <p class="font-weight-bold text-start">{{'ADMIN.Users.createOrEditUser.profileImage' | translate}}</p>
+
+                <input type="file" class="file-input w-100 mb-2" (change)="onFileChange($event)"
+                  #fileUpload>
+
+                  <mat-error *ngIf="editUser.get('imageType') as control">
+                    <ng-container *ngIf="control.hasError('pattern')">
+                         {{'HOME.Registration.errors.imageExtension' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="empty && !control.hasError('pattern')">
+                      {{'HOME.Registration.errors.imageExtension' | translate}}
+                    </ng-container>
+                        
+                  </mat-error>
+
+            </ng-template>
+          </div>
+
+            
+            <!-- IME -->
+            <mat-form-field class="example-full-width">
+
+               <mat-label>{{'ADMIN.Users.createOrEditUser.fn' | translate}}</mat-label>
+                  <input type="text" matInput formControlName="FirstName" required>
+
+                    <mat-error *ngIf="editUser.get('FirstName') as control">
+                      <ng-container *ngIf="control.hasError('required')">
+                        {{'HOME.Registration.errors.fNameRequired' | translate}}
+                      </ng-container>
+                      <ng-container *ngIf="control.hasError('minlength')">
+                        {{'HOME.Registration.errors.fNameMinLength' | translate}}
+                      </ng-container>
+                      <ng-container *ngIf="control.hasError('maxlength')">
+                        {{'HOME.Registration.errors.fNameMaxLength' | translate}}
+                      </ng-container>
+                      <ng-container *ngIf="control.hasError('pattern')">
+                        {{'HOME.Registration.errors.fNamePattern' | translate}}
+                      </ng-container>
+                    </mat-error>
+            </mat-form-field>
+
+              <!-- PREZIME -->
+
+                <mat-form-field class="example-full-width">
+                  <mat-label>{{'ADMIN.Users.createOrEditUser.ln' | translate}}</mat-label>
+                  <input matInput formControlName="LastName" required>
+                  <mat-error *ngIf="editUser.get('LastName') as control">
+                    <ng-container *ngIf="control.hasError('required')">
+                      {{'HOME.Registration.errors.lNameRequired' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('minlength')">
+                      {{'HOME.Registration.errors.lNameMinLength' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('maxlength')">
+                      {{'HOME.Registration.errors.lNameMaxLength' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('pattern')">
+                      {{'HOME.Registration.errors.lNamePattern' | translate}}
+                    </ng-container>
+                    </mat-error>
+                </mat-form-field>
+
+             <!-- USERNAME -->
+
+                <mat-form-field class="example-full-width">
+                  <mat-label>{{'ADMIN.Users.createOrEditUser.un' | translate}}</mat-label>
+                  <input matInput  formControlName="Username" required>
+                  <mat-error *ngIf="editUser.get('Username') as control">
+                  <ng-container *ngIf="control.hasError('required')">
+                    {{'HOME.Registration.errors.usernameRequired' | translate}}
+                  </ng-container>
+                  <ng-container *ngIf="control.hasError('pattern')">
+                    {{'HOME.Registration.errors.usernamePattern' | translate}}
+                  </ng-container>
+                  </mat-error>
+                </mat-form-field>
+        
+              <!-- EMAIL -->
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Email" type='email' formControlName="Email" required>
+                  <mat-error *ngIf="editUser.get('Email') as control">
+                    <ng-container *ngIf="control.hasError('required')">
+                      {{'HOME.Registration.errors.emailRequired' | translate}}
+                    </ng-container>
+                    <ng-container *ngIf="control.hasError('email')">
+                      {{'HOME.Registration.errors.emailError' | translate}}
+                    </ng-container>
+                    </mat-error>
+                </mat-form-field>
+     
+            <!-- Uloga -->
+            <div class="text-center">
+
+                <mat-radio-group class="gender">
+                  <div style="color:grey;">{{'ADMIN.Users.createOrEditUser.role' | translate}}</div>
+                  <mat-radio-button color="primary" style="padding:4px 4px 0px 0px;" (change)="setRole(1)" value="1" [checked]="userdata.roleId==1">{{'ADMIN.Users.createOrEditUser.Admin' | translate}}</mat-radio-button>
+                  <mat-radio-button  color="primary" style="padding:4px 0px 0px 24px;" (change)="setRole(2)" [checked]="userdata.roleId==2" value="2">{{'ADMIN.Users.createOrEditUser.User' | translate}}</mat-radio-button>
+                </mat-radio-group>
+            </div>
+
+         
+
+    
+          <p class="bg-danger text-center mt-3 py-3" *ngIf="errorMsg">{{errorMsg}}</p>
+          <p class="bg-success text-center mt-3 py-3" *ngIf="resp">{{resp}}</p> 
+
+          <div class="text-center mt-3">
+           
+            <button mat-raised-button mat-dialog-close type="button" class="Discard-btn me-2">{{'ADMIN.buttons.close' | translate}}</button>
+
+            <button mat-raised-button type="submit" color="primary" (click)="onSubmit()" [disabled]="editUser.invalid || this.empty" class="Update-btn">{{'ADMIN.buttons.edit' | translate}}</button>
+            
+          </div>
+    
+        </form>
+      </div>
+    </div>
+    

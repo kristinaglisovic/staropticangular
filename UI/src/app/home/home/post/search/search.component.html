@@ -1,0 +1,11 @@
+<div class=" conatiner widget search">
+      <h3 class="h6" [translate]="'HOME.search.text'"></h3>
+    
+      <div class="form-group">
+        <input type="search" placeholder="{{'HOME.search.placeholder'| translate}}" [(ngModel)]="keyword" (keyup.enter)="onSearchTextChanged()">
+      </div>
+      
+    
+  </div>
+
+

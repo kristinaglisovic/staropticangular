@@ -1,0 +1,14 @@
+<div class="col-md-12 py-2">
+    
+        <mat-form-field appearance="fill" class="bg-secondary">
+            <mat-label [translate]="'HOME.categories'"></mat-label>
+            <mat-select multiple>
+                <mat-option *ngFor="let c of onlyActive(cas)" [value]="c.id" (onSelectionChange)="changeCategories($event)">
+                    {{c.name}} ({{c.activePostsCount}})
+                  </mat-option>
+            </mat-select>
+          </mat-form-field>
+</div>
+
+
+    

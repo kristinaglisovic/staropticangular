@@ -1,0 +1,90 @@
+<section class="min-vh-100 gradient-custom">
+    <div class="container py-1 h-100">
+    <form [formGroup]="addUser" (ngSubmit)="onSubmit()">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-7">
+          <div class="card bg-dark text-white shadow" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+              <div class="mb-md-5 mt-md-4">
+                <h2 class="fw-bold mb-4 text-uppercase">{{'HOME.Registration.registrationText' | translate}}</h2>
+  
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['FirstName'].touched && f['FirstName'].invalid)">
+                    <span *ngIf="f['FirstName'].hasError('required')" class="text-danger pb-2">{{'HOME.Registration.errors.fNameRequired' | translate}}</span>
+                    <span *ngIf="f['FirstName'].hasError('minlength')" class="text-danger pb-2">{{'HOME.Registration.errors.fNameMinLength' | translate}}</span>
+                    <span *ngIf="f['FirstName'].hasError('maxlength')" class="text-danger pb-2">{{'HOME.Registration.errors.fNameMaxLength' | translate}}</span>
+                    <span *ngIf="f['FirstName'].hasError('pattern')" class="text-danger pb-2">{{'HOME.Registration.errors.fNamePattern' | translate}}</span>
+                  </ng-container>
+                    <input type="text" class="form-control" id="firstName" aria-describedby="naziv" formControlName="FirstName" required>
+                    <label for="firstName" class="form-label">{{'HOME.Registration.fName' | translate}}</label>
+                  
+                </div>
+  
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['LastName'].touched && f['LastName'].invalid)">
+                    <span *ngIf="f['LastName'].hasError('required')" class="text-danger pb-2">{{'HOME.Registration.errors.lNameRequired' | translate}}</span>
+                    <span *ngIf="f['LastName'].hasError('minlength')" class="text-danger pb-2">{{'HOME.Registration.errors.lNameMinLength' | translate}}</span>
+                    <span *ngIf="f['LastName'].hasError('maxlength')" class="text-danger pb-2">{{'HOME.Registration.errors.lNameMaxLength' | translate}}</span>
+                    <span *ngIf="f['LastName'].hasError('pattern')" class="text-danger pb-2">{{'HOME.Registration.errors.lNamePattern' | translate}}</span>
+                  </ng-container>
+                    <input type="text" class="form-control" id="naziv" aria-describedby="lastName" formControlName="LastName" required>
+                    <label for="lastName" class="form-label">{{'HOME.Registration.lName' | translate}}</label>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['Username'].touched && f['Username'].invalid)">
+                    <span *ngIf="f['Username'].hasError('required')" class="text-danger pb-2">{{'HOME.Registration.errors.usernameRequired' | translate}}</span>
+                    <span *ngIf="f['Username'].hasError('pattern')" class="text-danger pb-2">{{'HOME.Registration.errors.usernamePattern' | translate}}</span>
+                  </ng-container>
+                    <input type="text" class="form-control" id="username" aria-describedby="username" formControlName="Username" required>
+                    <label for="username" class="form-label">{{'HOME.Registration.nick' | translate}}</label>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['Email'].touched && f['Email'].invalid)">
+                    <span *ngIf="f['Email'].hasError('required')" class="text-danger pb-2">{{'HOME.Registration.errors.emailRequired' | translate}}</span>
+                    <span *ngIf="f['Email'].hasError('email')" class="text-danger pb-2">{{'HOME.Registration.errors.emailError' | translate}}</span>
+                  </ng-container>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" formControlName="Email" required>
+                    <label for="email" class="form-label">E-mail</label>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['Password'].touched && f['Password'].invalid)">
+                    <span *ngIf="f['Password'].hasError('required')" class="text-danger pb-2">{{'HOME.Registration.errors.passwordRequired' | translate}}</span>
+                    <span *ngIf="f['Password'].hasError('minlength')" class="text-danger pb-2">{{'HOME.Registration.errors.passwordMinLength' | translate}}</span>
+                    <span *ngIf="f['Password'].hasError('maxlength')" class="text-danger pb-2">{{'HOME.Registration.errors.passwordMaxLength' | translate}}</span>
+                    <span *ngIf="f['Password'].hasError('pattern')" class="text-danger pb-2">{{'HOME.Registration.errors.passwordPattern' | translate}}</span>
+                  </ng-container>
+                  <input [type]=" showPassword ? 'text' : 'password' " class="form-control" id="password" aria-describedby="password" formControlName="Password" required>
+                  <i class="fa-solid fa-eye text-primary shadow bg-white shadow p-2 m-1 rounded-circle" (click)='showHidePassword()'></i>
+                  <label for="password" class="form-label">{{'HOME.Registration.pass' | translate}}</label>
+                </div>
+                <div class="form-outline form-white mb-4">
+                  <span *ngIf="resp2!=''" class="text-danger pb-2">{{resp2}}</span>
+                    <input type="file" class="form-control" id="image" aria-describedby="image" (change)="onFileChange($event)" formControlName="Image">
+                    <label for="image" class="form-label">{{'HOME.Registration.img' | translate}}</label>
+                </div>
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" [disabled]="addUser.invalid">{{'HOME.Registration.regBtn' | translate}}</button>
+                <p class="text-center text-white bg-danger py-2 mt-3 fw-bold" *ngIf="backMsgUsername">{{backMsgUsername}}</p>
+              
+                <p class="text-center  text-white bg-danger py-2 mt-3 fw-bold" *ngIf="backMsgEmail">{{backMsgEmail}}</p>
+                <div class='container my-3 bg-info text-center' *ngIf="resp != '' ">
+                    <p class="text-uppercase py-5 fw-bold text-white">{{resp}}</p>
+                  </div>
+              </div>
+                
+              <div>
+                <p class="mb-0">{{'HOME.Registration.haveAcc' | translate}} <a routerLink="/home/login" class="text-info fw-bold">{{'HOME.Registration.login' | translate}}</a>
+                </p>
+              </div>
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a routerLink="/home" class="text-white btn btn-primary"><i class="fas fa-home fa-md"></i>  {{'HOME.Registration.homeButton' | translate}}</a>
+              </div>
+              
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    </div>
+  </section>

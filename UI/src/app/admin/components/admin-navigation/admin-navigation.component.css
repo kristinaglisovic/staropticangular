@@ -1,0 +1,19 @@
+.navigationn{
+    background-color:  #FF1744 !important;
+}
+.active-link{
+    background-color: rgb(0, 0, 0,0.1);
+    color:  white !important;
+    box-shadow: 1px 2px 2px rgb(0, 0, 0,0.7);
+    text-decoration: none !important; 
+    font-weight: 500;
+}
+.fa-right-from-bracket{
+    font-size: 20px !important;
+    color: white;
+}
+a:hover { text-decoration: none !important; }
+
+.fa-user{
+    font-size: 20px !important;
+}

@@ -1,0 +1,48 @@
+  <section class="vh-100 gradient-custom">
+    <div class="container py-3 h-100">
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-7">
+          <div class="card bg-dark text-white shadow" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <h2 class="fw-bold mb-2 text-uppercase">{{'HOME.LogIn.logInText' | translate}}</h2>
+                <p class="text-white-50 mb-5">{{'HOME.LogIn.enter' | translate}}</p>
+  
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['email'].touched && f['email'].invalid)">
+                    <span *ngIf="f['email'].hasError('required')" class="text-danger pb-2">{{'HOME.LoginMessages.emailRequired' | translate}}</span>
+                    <span *ngIf="f['email'].hasError('email')" class="text-danger pb-2">{{'HOME.LoginMessages.emailFormatError' | translate}}</span>
+                  </ng-container>
+    
+                  <input type="email" id="form2Example18" class="form-control form-control-lg" formControlName="email" />
+                  <label class="form-label" for="form2Example18">E-mail</label>
+                </div>
+            
+                <div class="form-outline form-white mb-4">
+                  <ng-container *ngIf="(f['password'].touched && f['password'].invalid)">
+                    <span *ngIf="f['password'].hasError('required')" class="text-danger pb-2">{{'HOME.LoginMessages.passRequired' | translate}}</span>
+                  </ng-container>
+                  <input type="password" id="form2Example28" class="form-control form-control-lg" formControlName="password"/>
+                  <label class="form-label" for="form2Example28">{{'HOME.LogIn.passInput' | translate}}</label>
+                </div>
+                <p class="text-center text-warning py-2" *ngIf="error">{{'HOME.LoginMessages.error' | translate}}</p>
+  
+                <button class="btn btn-outline-light btn-lg px-5" type="submit" [disabled]="loginForm.invalid">{{'HOME.LogIn.logInButton' | translate}}</button>
+              </div>
+  
+              <div>
+                <p class="mb-0">{{'HOME.LogIn.dontHaveAcc' | translate}} <a routerLink="/home/register" class="text-info fw-bold">{{'HOME.LogIn.registerLink' | translate}}</a>
+                </p>
+              </div>
+              <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                <a routerLink="/home" class="text-white btn btn-primary"><i class="fas fa-home fa-md"></i>  {{'HOME.LogIn.homeButton' | translate}}</a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    </div>
+  </section>

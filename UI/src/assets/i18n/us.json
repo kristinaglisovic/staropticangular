@@ -1,0 +1,300 @@
+{
+    "HOME":{
+        "recentP":"Recent Posts",
+        "search":{
+            "text":"Search blog...",
+            "placeholder":"Search..."
+        },
+        "categories":"Categories",
+        "tags":"Tags",
+        "copy":"2022. All rights saved.",
+        "sortBy":{
+            "label":"Sort By",
+            "o1":"Comments Ascending",
+            "o2":"Comments Descending",
+            "o3":"Likes Ascending",
+            "o4":"Likes Descending",
+            "o5":"Default"
+        },
+        "navigation":{
+            "l1":"Posts",
+            "l2":"Log In",
+            "l3":"Register",
+            "l4":"Admin Panel",
+            "l5":"Sign out"
+        },
+        "singlePost":{
+            "comments":"Comments",
+            "author":"Author: ",
+            "leaveAComment":"Leave a comment",
+            "submitComment":"Post",
+            "notLogged":"You must be logged in to leave a comment!",
+            "Gallery":"Gallery",
+            "WriteAComment":"Write a comment...",
+            "CommRequired":"Text is required",
+            "CommMinLength":"The minimum number of characters is 1",
+            "CommMaxLength":"The maximum number of characters is 100"
+        },
+        "LogIn":{
+            "logInText":"LOG IN",
+            "enter":"Enter your email and password",
+            "passInput":"Password",
+            "logInButton":"Log in",
+            "dontHaveAcc":"Don't have an account?",
+            "registerLink":"Register here",
+            "homeButton":"BACK"
+        },
+        "Registration":{
+            "registrationText":"REGISTRATION",
+            "fName":"First Name",
+            "lName":"Last Name",
+            "nick":"Username",
+            "pass":"Password",
+            "img":"Image",
+            "regBtn":"Register Now",
+            "haveAcc":"Have an account?",
+            "login":"Log in here",
+            "homeButton":"BACK",
+            "errors":{
+                "fNameRequired":"First name is required",
+                "fNameMinLength":"The minimum number of characters is 2",
+                "fNameMaxLength":"The maximum number of characters is 40",
+                "fNamePattern":"Only letters, special characters, and spaces are allowed (e.g. Sierra O'Neil)",
+                "lNameRequired":"Last name is required",
+                "lNameMinLength":"The minimum number of characters is 3",
+                "lNameMaxLength":"The maximum number of characters is 40",
+                "lNamePattern":"Only letters, special characters, and spaces are allowed (e.g. Sierra O'Neil)",
+                "usernameRequired":"Username is required",
+                "usernamePattern":"The username must be 4-25 characters long. Letters, numbers . and _ are allowed.",
+                "emailRequired":"E-mail is required",
+                "emailError":"Invalid email format",
+                "passwordRequired":"Password is required",
+                "passwordMinLength":"The minimum number of characters is 8",
+                "passwordMaxLength":"The maximum number of characters is 15",
+                "passwordPattern":"The password must contain at least one uppercase letter, one lowercase letter, one number, and one special character.",
+                "imageExtension":"The allowed image extensions are: .jpg, .png, .jpeg, .gif, .JPG, .PNG, .JPEG, .GIF"
+            }
+
+        },
+        "NoResults":"No results.",
+        "LoginMessages":{
+            "emailRequired":"E-mail is required.",
+            "emailFormatError":"Invalid email format.",
+            "passRequired":"Password is required.",
+            "error":"There is no user with the entered email and password."
+        }
+       
+    },
+    "ADMIN":{
+        "buttons":{
+            "close":"Close",
+            "add":"Add",
+            "edit":"Edit"
+        },
+        "links":{
+            "dashboard":"DASHBOARD",
+            "tags":"TAGS",
+            "categories":"CATEGORIES",
+            "users":"USERS",
+            "posts":"POSTS",
+            "comments":"COMMENTS",
+            "signOut":"Sign out"
+        },
+        "Dashboard":{
+            "dashboardText":"Dashboard",
+            "cards":{
+                "c1":"Total number of active users",
+                "c2":"Total number of active categories",
+                "c3":"Total number of active tags",
+                "c4":"Total number of active posts",
+                "c5":"Total number of active comments",
+                "c6":"Total number of active images"
+            },
+            "imagesText":"Images",
+            "addImage":"Add image",
+            "imageText":"Image",
+            "imageTable":{
+                "image":"Image",
+                "user":"User",
+                "posts":"Posts",
+                "created":"Created at",
+                "delete":"Delete"
+            }
+        },
+        "Tags":{
+            "tagsTable":{
+                "name":"Name",
+                "postsCount":"Posts count",
+                "activePostsCount":"Active posts count",
+                "active":"Active",
+                "createdAt":"Created At",
+                "updatedAt":"Updated at",
+                "delete":"Delete",
+                "activate":"Activate",
+                "edit":"Edit"
+            },
+            "tagsText":"Tags",
+            "addTag":"Add tag",
+            "editTag":"Edit tag",
+            "createOrEditTag":{
+                "errors":{
+                    "required":"Name is required.",
+                    "minlength":"The min no of characters is 3",
+                    "maxlength":"The max no of characters is 20"
+                },
+                "nameSr":"Name Sr",
+                "nameUs":"Name Us"
+            }
+           
+        },
+        "Categories":{
+            "categoriesTable":{
+                "name":"Name",
+                "description":"Description",
+                "postsCount":"Posts count",
+                "activePostsCount":"Active posts count",
+                "active":"Active",
+                "createdAt":"Created At",
+                "updatedAt":"Updated at",
+                "delete":"Delete",
+                "activate":"Activate",
+                "edit":"Edit"
+            },
+            "categoriesText":"Categories",
+            "addCategory":"Add category",
+            "editCategory":"Edit category",
+            "createOrEditCategory":{
+                "errors":{
+                    "name":{
+                        "required":"Name is required.",
+                        "minlength":"The min no of characters is 3",
+                        "maxlength":"The max no of characters is 20"
+                    },
+                    "description":{
+                        "required":"Description is required.",
+                        "minlength":"The min no of characters is 3",
+                        "maxlength":"The max no of characters is 50"
+                    }
+                },
+                "nameSr":"Name Sr",
+                "nameUs":"Name Us",
+                "descriptionSr":"Description Sr",
+                "descriptionUs": "Description Us"
+            }
+        },
+        "Users":{
+            "usersText":"Users",
+            "addUser":"Add user",
+            "editUser":"Edit user",
+            "usersTable":{
+                "fName":"First Name",
+                "lName":"Last Name",
+                "username":"Username",
+                "image":"Image",
+                "role":"Role",
+                "postsCount":"Posts count",
+                "activePostsCount":"Active posts count",
+                "likes":"Likes",
+                "comments":"Comments",
+                "active":"Active",
+                "createdAt":"Registered at",
+                "updatedAt":"Updated at",
+                "delete":"Delete",
+                "activate":"Activate",
+                "edit":"Edit"
+            },
+            "createOrEditUser":{
+                "fn":"First Name",
+                "ln":"Last Name",
+                "un":"Username",
+                "profileImage":"Profile Image",
+                "role":"Role",
+                "Admin":"Administrator",
+                "User":"User",
+                "pass":"Password"
+            }
+        },
+        "Posts":{
+            "postsText":"Posts",
+            "addPost":"Add post",
+            "editPost":"Edit post",
+            "postsTable":{
+                "title":"Title",
+                "description":"Description",
+                "author":"Author",
+                "images":"Images",
+                "likes":"Likes",
+                "comments":"Comments",
+                "active":"Active",
+                "createdAt":"Created At",
+                "updatedAt":"Updated at",
+                "look":"View",
+                "delete":"Delete",
+                "activate":"Activate",
+                "edit":"Edit"
+            },
+            "createOrEditPost":{
+                "Title":"Title sr",
+                "TitleEng":"Title eng",
+                "Description":"Description sr",
+                "DescriptionEng":"Description eng",
+                "Heading1":"Heading 1 sr",
+                "Heading1Eng":"Heading 1 eng",
+                "Heading2":"Heading 2 sr",
+                "Heading2Eng":"Heading 2 eng",
+                "Text1":"Text 1 sr",
+                "Text1Eng":"Text 1 eng",
+                "Text2":"Text 2 sr",
+                "Text2Eng":"Text 2 eng"
+            },
+            "errors":{
+                "titleRequired":"Title sr must not be empty.",
+                "titleMinL":"Title sr must have at least 3 characters.",
+                "titleEngRequired":"Title eng must not be empty.",
+                "titleEngMinL":"Title eng must have at least 3 characters.",
+                "descriptionRequired":"Description sr must not be empty",
+                "descriptionMinL":"Description sr must have at least 5 characters.",
+                "descriptionEngRequired":"Description eng must not be empty",
+                "descriptionEngMinL":"Description eng must have at least 5 characters.",
+                "heading1Required":"Heading 1 sr must not be empty.",
+                "heading1MinL":"Heading 1 sr must have at least 3 characters.",
+                "heading1MaxL":"Heading 1 sr can have a maximum of 40 characters.",
+                "heading1EngRequired":"Heading 1 eng must not be empty.",
+                "heading1EngMinL":"Heading 1 eng must have at least 3 characters.",
+                "heading1EngMaxL":"Heading 1 eng can have a maximum of 40 characters.",
+                "text1Required":"Text 1 sr is required",
+                "text1MinL":"Text 1 sr must have at least 3 characters.",
+                "text1MaxL":"Text 1 sr can have a maximum of 400 characters.",
+                "text1EngRequired":"Text 1 eng is required",
+                "text1EngMinL":"Text 1 eng must have at least 3 characters.",
+                "text1EngMaxL":"Text 1 eng can have a maximum of 400 characters.",
+                "heading2MinL":"Heading 2 sr must have at least 3 characters.",
+                "heading2MaxL":"Heading 2 sr can have a maximum of 40 characters.",
+                "heading2EngMinL":"Heading 2 eng must have at least 3 characters.",
+                "heading2EngMaxL":"Heading 2 eng can have a maximum of 40 characters.",
+                "text2MinL":"Text 2 sr must have at least 3 characters.",
+                "text2MaxL":"Text 2 sr can have a maximum of 400 characters.",
+                "text2EngMinL":"Text 2 eng must have at least 3 characters.",
+                "text2EngMaxL":"Text 2 eng can have a maximum of 400 characters.",
+                "categIds":"You must select at least 1 category.",
+                "tagsIds":"You must select at least 1 tag.",
+                "imagesIds":"You must select at least 1 image."
+
+            }
+        },
+        "Comments":{
+            "commentsText":"Comments",
+            "commentsTable":{
+                "author":"Author",
+                "comment":"Comment",
+                "look":"View",
+                "active":"Active",
+                "createdAt":"Created At",
+                "updatedAt":"Updated at",
+                "delete":"Delete",
+                "activate":"Activate"
+            }
+        }
+        
+    }
+}

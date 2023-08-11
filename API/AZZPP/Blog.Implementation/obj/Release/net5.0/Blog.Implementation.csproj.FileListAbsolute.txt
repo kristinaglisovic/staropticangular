@@ -1,0 +1,38 @@
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.deps.json
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Application.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.DataAccess.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Domain.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Application.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.DataAccess.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Domain.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.AssemblyReference.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.AssemblyInfoInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.AssemblyInfo.cs
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.CoreCompileInputs.cache
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.CopyComplete
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\refint\Blog.Implementation.dll
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.pdb
+D:\DIPLOMSKI\backend\AZZPP\Blog.Implementation\obj\Release\net5.0\ref\Blog.Implementation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.deps.json
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Implementation.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Application.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.DataAccess.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Domain.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Application.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.DataAccess.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\bin\Release\net5.0\Blog.Domain.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\ref\Blog.Implementation.dll
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\Blog.Implementation.pdb
+C:\Users\Korisnik\Desktop\Skola\ITS\Projekat za Angular\ANGULAR ISPIT\API\AZZPP\Blog.Implementation\obj\Release\net5.0\refint\Blog.Implementation.dll

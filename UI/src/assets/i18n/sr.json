@@ -1,0 +1,300 @@
+{
+    "HOME":{
+        "recentP":"Skorašnji postovi",
+        "search":{
+            "text":"Pretražite blog",
+            "placeholder":"Pretraga..."
+        },
+        "categories":"Kategorije",
+        "tags":"Tagovi",
+        "copy":"2022. Sva prava sačuvana.",
+        "sortBy":{
+            "label":"Sortiranje",
+            "o1":"Komentari rastuće",
+            "o2":"Komentari opadajuće",
+            "o3":"Lajkovi rastuće",
+            "o4":"Lajkovi opadajuće",
+            "o5":"Podrazumevano"
+        },
+        "navigation":{
+            "l1":"Postovi",
+            "l2":"Prijavi se",
+            "l3":"Registruj se",
+            "l4":"Admin Panel",
+            "l5":"Odjavi se"
+        },
+        "singlePost":{
+            "comments":"Komentari",
+            "author":"Autor: ",
+            "leaveAComment":"Ostavite komentar",
+            "submitComment":"Objavi",
+            "notLogged":"Morate biti ulogovani da biste ostavili komentar!",
+            "Gallery":"Galerija",
+            "WriteAComment":"Napišite komentar...",
+            "CommRequired":"Tekst je obavezan",
+            "CommMinLength":"Minimalan broj karaktera je 1",
+            "CommMaxLength":"Maksimalan broj karaktera je 100"
+        },
+        "LogIn":{
+            "logInText":"PRIJAVI SE",
+            "enter":"Upišite email i lozinku",
+            "passInput":"Lozinka",
+            "logInButton":"Prijavi se",
+            "dontHaveAcc":"Nemate nalog?",
+            "registerLink":"Registrujte se",
+            "homeButton":"NAZAD"
+        },
+        "Registration":{
+            "registrationText":"Registracija",
+            "fName":"Ime",
+            "lName":"Prezime",
+            "nick":"Korisničko ime",
+            "pass":"Lozinka",
+            "img":"Slika",
+            "regBtn":"Registruj se",
+            "haveAcc":"Imate nalog?",
+            "login":"Prijavite se",
+            "homeButton":"NAZAD",
+            "errors":{
+                "fNameRequired":"Ime je obavezno",
+                "fNameMinLength":"Minimalan broj karaktera je 2",
+                "fNameMaxLength":"Maksimalan broj karaktera je 40",
+                "fNamePattern":"Dozvoljena su samo slova, specijalni karakteri i razmaci (npr. Sierra O'Neil)",
+                "lNameRequired":"Prezime je obavezno",
+                "lNameMinLength":"Minimalan broj karaktera je 3",
+                "lNameMaxLength":"Maksimalan broj karaktera je 40",
+                "lNamePattern":"Dozvoljena su samo slova, specijalni karakteri i razmaci (npr. Sierra O'Neil)",
+                "usernameRequired":"Korisničko ime je obavezno",
+                "usernamePattern":"Korisničko ime mora biti 4-25 karaktera. Dozvoljena su slova, brojevi . i _",
+                "emailRequired":"E-mail je obavezan",
+                "emailError":"Neispravan format",
+                "passwordRequired":"Lozinka je obavezna",
+                "passwordMinLength":"Minimalan broj karaktera je 8",
+                "passwordMaxLength":"Maksimalan broj karaktera je 15",
+                "passwordPattern":"Lozinka mora sadržati najmanje po jedno veliko i malo slovo, jedan broj i jedan specijalan karakter",
+                "imageExtension":"Dozvoljene ekstenzije slika su: .jpg, .png, .jpeg, .gif, .JPG, .PNG, .JPEG, .GIF"
+            }
+        },
+        "NoResults":"Nema rezultata.",
+        "LoginMessages":{
+            "emailRequired":"E-mail je obavezan.",
+            "emailFormatError":"Neispravan format e-maila.",
+            "passRequired":"Lozinka je obavezna.",
+            "error":"Ne postoji korisnik sa unetim e-mailom i lozinkom."
+        }
+
+    },
+    "ADMIN":{
+        "buttons":{
+            "close":"Zatvori",
+            "add":"Dodaj",
+            "edit":"Ažuriraj"
+        },
+        "links":{
+            "dashboard":"KONTROLNA TABLA",
+            "tags":"TAGOVI",
+            "categories":"KATEGORIJE",
+            "users":"KORISNICI",
+            "posts":"POSTOVI",
+            "comments":"KOMENTARI",
+            "signOut":"Odjavi se"
+        },
+        "Dashboard":{
+            "dashboardText":"Kontrolna tabla",
+            "cards":{
+                "c1":"Ukupan broj aktivnih korisnika",
+                "c2":"Ukupan broj aktivnih kategorija",
+                "c3":"Ukupan broj aktivnih tagova",
+                "c4":"Ukupan broj aktivnih postova",
+                "c5":"Ukupan broj aktivnih komentara",
+                "c6":"Ukupan broj aktivnih slika"
+            },
+            "imagesText":"Slike",
+            "addImage":"Dodaj sliku",
+            "imageText":"Slika",
+            
+            "imageTable":{
+                "image":"Slika",
+                "user":"Korisnik",
+                "posts":"Postovi",
+                "created":"Kreirana",
+                "delete":"Obriši"
+            }
+        },
+        "Tags":{
+            "tagsTable":{
+                "name":"Naziv",
+                "postsCount":"Br. postova",
+                "activePostsCount":"Br. aktivnih postova",
+                "active":"Aktivna",
+                "createdAt":"Kreirana",
+                "updatedAt":"Ažurirana",
+                "delete":"Obriši",
+                "activate":"Aktivacija",
+                "edit":"Ažuriranje"
+            },
+            "tagsText":"Tagovi",
+            "addTag":"Dodaj tag",
+            "editTag":"Ažuriranje taga",
+            "createOrEditTag":{
+                "errors":{
+                    "required":"Naziv je obavezan.",
+                    "minlength":"Minimalan broj karaktera je 3",
+                    "maxlength":"Maksimalan broj karaktera je 20"
+                },
+                "nameSr":"Naziv Sr",
+                "nameUs":"Naziv Us"
+            }
+           
+        },
+        "Categories":{
+            "categoriesTable":{
+                "name":"Naziv",
+                "description":"Opis",
+                "postsCount":"Br. postova",
+                "activePostsCount":"Br. aktivnih postova",
+                "active":"Aktivna",
+                "createdAt":"Kreirana",
+                "updatedAt":"Ažurirana",
+                "delete":"Obriši",
+                "activate":"Aktivacija",
+                "edit":"Ažuriranje"
+            },
+            "categoriesText":"Kategorije",
+            "addCategory":"Dodaj kategoriju",
+            "editCategory":"Ažuriranje kategorije",
+            "createOrEditCategory":{
+                "errors":{
+                    "name":{
+                        "required":"Naziv je obavezan.",
+                        "minlength":"Minimalan broj karaktera je 3",
+                        "maxlength":"Maksimalan broj karaktera je 20"
+                    },
+                    "description":{
+                        "required":"Opis je obavezan.",
+                        "minlength":"Minimalan broj karaktera je 3",
+                        "maxlength":"Maksimalan broj karaktera je 50"
+                    }
+                },
+                "nameSr":"Naziv Sr",
+                "nameUs":"Naziv Us",
+                "descriptionSr":"Opis Sr",
+                "descriptionUs": "Opis Us"
+            }
+        },
+        "Users":{
+            "usersText":"Korisnici",
+            "addUser":"Dodaj korisnika",
+            "editUser":"Ažuriranje korisnika",
+            "usersTable":{
+                "fName":"Ime",
+                "lName":"Prezime",
+                "username":"Korisničko ime",
+                "image":"Slika",
+                "role":"Uloga",
+                "postsCount":"Br. postova",
+                "activePostsCount":"Br. aktivnih postova",
+                "likes":"Br. lajkova",
+                "comments":"Br. komentara",
+                "active":"Aktivan",
+                "createdAt":"Registrovan",
+                "updatedAt":"Ažuriran",
+                "delete":"Obriši",
+                "activate":"Aktivacija",
+                "edit":"Ažuriranje"
+            },
+            "createOrEditUser":{
+                "fn":"Ime",
+                "ln":"Prezime",
+                "un":"Korisničko ime",
+                "profileImage":"Profilna slika",
+                "role":"Uloga",
+                "Admin":"Administrator",
+                "User":"Korisnik",
+                "pass":"Password"
+            }
+        },
+        "Posts":{
+            "postsText":"Postovi",
+            "addPost":"Dodaj post",
+            "editPost":"Ažuriranje posta",
+            "postsTable":{
+                "title":"Naslov",
+                "description":"Opis",
+                "author":"Autor",
+                "images":"Br. slika",
+                "likes":"Br. lajkova",
+                "comments":"Br. komentara",
+                "active":"Aktivan",
+                "createdAt":"Kreiran",
+                "updatedAt":"Ažuriran",
+                "look":"Pregled",
+                "delete":"Obriši",
+                "activate":"Aktivacija",
+                "edit":"Ažuriranje"
+            },
+            "createOrEditPost":{
+                "Title":"Naslov sr",
+                "TitleEng":"Naslov eng",
+                "Description":"Opis sr",
+                "DescriptionEng":"Opis eng",
+                "Heading1":"Podnaslov 1 sr",
+                "Heading1Eng":"Podnaslov 1 eng",
+                "Heading2":"Podnaslov 2 sr",
+                "Heading2Eng":"Podnaslov 2 eng",
+                "Text1":"Tekst 1 sr",
+                "Text1Eng":"Tekst 1 eng",
+                "Text2":"Tekst 2 sr",
+                "Text2Eng":"Tekst 2 eng"
+            },
+            "errors":{
+                "titleRequired":"Naslov sr ne sme biti prazan.",
+                "titleMinL":"Naslov sr mora imati najmanje 3 karaktera.",
+                "titleEngRequired":"Naslov eng ne sme biti prazan.",
+                "titleEngMinL":"Naslov eng mora imati najmanje 3 karaktera.",
+                "descriptionRequired":" Opis sr ne sme biti prazan.",
+                "descriptionMinL":"Opis sr mora imati najmanje 5 karaktera.",
+                "descriptionEngRequired":" Opis eng ne sme biti prazan.",
+                "descriptionEngMinL":"Opis eng mora imati najmanje 5 karaktera.",
+                "heading1Required":"Podnaslov sr ne sme biti prazan.",
+                "heading1MinL":"Podnaslov sr mora imati najmanje 3 karaktera.",
+                "heading1MaxL":"Podnaslov sr može imati najviše 40 karaktera.",
+                "heading1EngRequired":"Podnaslov eng ne sme biti prazan.",
+                "heading1EngMinL":"Podnaslov eng mora imati najmanje 3 karaktera.",
+                "heading1EngMaxL":"Podnaslov eng može imati najviše 40 karaktera.",
+                "text1Required":"Tekst 1 sr ne sme biti prazan.",
+                "text1MinL":"Tekst 1 sr mora imati najmanje 3 karaktera.",
+                "text1MaxL":"Tekst 1 sr može imati najviše 400 karaktera.",
+                "text1EngRequired":"Tekst 1 eng ne sme biti prazan.",
+                "text1EngMinL":"Tekst 1 eng mora imati najmanje 3 karaktera.",
+                "text1EngMaxL":"Tekst 1 eng može imati najviše 400 karaktera.",
+                "heading2MinL":"Podnaslov 2 sr mora imati najmanje 3 karaktera.",
+                "heading2MaxL":"Podnaslov 2 sr može imati najviše 40 karaktera.",
+                "heading2EngMinL":"Podnaslov 2 eng mora imati najmanje 3 karaktera.",
+                "heading2EngMaxL":"Podnaslov 2 eng može imati najviše 40 karaktera.",
+                "text2MinL":"Tekst 2 sr mora imati najmanje 3 karaktera.",
+                "text2MaxL":"Tekst 2 sr može imati najviše 400 karaktera.",
+                "text2EngMinL":"Tekst 2 eng mora imati najmanje 3 karaktera.",
+                "text2EngMaxL":"Tekst 2 eng može imati najviše 400 karaktera.",
+                "categIds":"Morate selektovati bar 1 kategoriju.",
+                "tagsIds":"Morate selektovati bar 1 tag.",
+                "imagesIds":"Morate selektovati bar 1 sliku."
+
+            }
+            
+        },
+        "Comments":{
+            "commentsText":"Komentari",
+            "commentsTable":{
+                "author":"Autor",
+                "comment":"komentar",
+                "look":"Pregled",
+                "active":"Aktivan",
+                "createdAt":"Kreiran",
+                "updatedAt":"Ažuriran",
+                "delete":"Obriši",
+                "activate":"Aktivacija"
+            }
+        }
+    }
+}

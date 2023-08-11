@@ -1,0 +1,57 @@
+<form class='p-5' [formGroup]="editTag">
+    <button mat-icon-button class="close-button" mat-dialog-close>
+    <mat-icon class="close-icon" color="warn">close</mat-icon>
+  </button>
+  
+  <h1 mat-dialog-title>{{'ADMIN.Tags.editTag' | translate}}</h1>
+  <div mat-dialog-content>
+    
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>{{'ADMIN.Tags.createOrEditTag.nameSr' | translate}}</mat-label>
+        <input type="text" matInput formControlName="nameSr"
+               placeholder="Ex. Armani Sr">
+
+
+
+        <mat-error *ngIf="editTag.get('nameSr') as control">
+            <ng-container *ngIf="control.hasError('required')">
+              {{'ADMIN.Tags.createOrEditTag.errors.required' | translate}}
+            </ng-container>
+            <ng-container *ngIf="control.hasError('minlength')">
+              {{'ADMIN.Tags.createOrEditTag.errors.minlength' | translate}}
+            </ng-container>
+            <ng-container *ngIf="control.hasError('maxlength')">
+              {{'ADMIN.Tags.createOrEditTag.errors.maxlength' | translate}}
+            </ng-container>
+        </mat-error>
+      </mat-form-field>
+
+
+      <mat-form-field class="example-full-width">
+        <mat-label>{{'ADMIN.Tags.createOrEditTag.nameUs' | translate}}</mat-label>
+        <input type="text" matInput formControlName="nameUs"
+               placeholder="Ex. Armani Us">
+        <mat-error *ngIf="editTag.get('nameUs') as control">
+            <ng-container *ngIf="control.hasError('required')">
+              {{'ADMIN.Tags.createOrEditTag.errors.required' | translate}}
+            </ng-container>
+            <ng-container *ngIf="control.hasError('minlength')">
+              {{'ADMIN.Tags.createOrEditTag.errors.minlength' | translate}}
+            </ng-container>
+            <ng-container *ngIf="control.hasError('maxlength')">
+              {{'ADMIN.Tags.createOrEditTag.errors.maxlength' | translate}}
+            </ng-container>
+        </mat-error>
+      </mat-form-field>
+  </div>
+  <p class="bg-danger text-center px-3" *ngIf="errorMsg">{{errorMsg}}</p>
+  <p class="bg-success text-center px-3" *ngIf="resp">{{resp}}</p> 
+  <div mat-dialog-actions class="d-flex align-items-center justify-content-center">
+    <button mat-button mat-dialog-close>{{'ADMIN.buttons.close' | translate}}</button>
+    <button mat-raised-button color="primary" cdkFocusInitial  (click)='onSubmit()' [disabled]="editTag.invalid">{{'ADMIN.buttons.edit' | translate}}</button>
+  </div>
+
+
+
+  </form>

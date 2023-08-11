@@ -1,0 +1,42 @@
+<div class="add-comment" *ngIf="auth.user; else nema">
+    <header>
+        <h3 class="h6">{{'HOME.singlePost.leaveAComment' | translate}}</h3>
+    </header>
+    <form [formGroup]="addComment" (ngSubmit)="onSubmit()"  class="commenting-form">
+        <div class="row">
+            <div class="form-group col-md-6">
+                <input type="text" name="username" id="username" placeholder="{{auth.user.username}}" class="form-control" disabled>
+            </div>
+            <div class="form-group col-md-6">
+                <input type="email" name="username" id="useremail" placeholder="{{auth.user.email}}" class="form-control" disabled>
+            </div>
+            <div class="form-group col-md-12">
+                <textarea name="comment" id="comment"  placeholder="{{'HOME.singlePost.WriteAComment' | translate}}" class="form-control" formControlName="Text" required></textarea>
+                <ng-container *ngIf="(f['Text'].touched && f['Text'].invalid)">
+                    <span *ngIf="f['Text'].hasError('required')" class="text-danger">{{'HOME.singlePost.CommRequired' | translate}}</span>
+                    <span *ngIf="f['Text'].hasError('minlength')" class="text-danger">{{'HOME.singlePost.CommMinLength' | translate}}</span>
+                    <span *ngIf="f['Text'].hasError('maxlength')" class="text-danger">{{'HOME.singlePost.CommMaxLength' | translate}}</span>
+                  </ng-container>
+            </div>
+            
+            <div class="form-group col-md-12 pt-2">
+                <button type="submit" class="btn btn-secondary" [disabled]="addComment.invalid">{{'HOME.singlePost.submitComment' | translate}}</button>
+            </div>
+        </div>
+    </form>
+    <div class="pt-2" *ngIf="resp != '' ">
+
+        <p class="text-info h3 font-weight-bold">{{resp}}</p>
+    </div>
+    <div class="pt-2" *ngIf="resp2 != '' ">
+
+        <p class="text-danger h3 font-weight-bold">{{resp2}}</p>
+    </div>
+</div>
+<ng-template #nema>
+    <div class="add-comment" >
+        <header>
+            <h3 class="h6">{{'HOME.singlePost.notLogged' | translate}}</h3>
+        </header>
+    </div>
+</ng-template>
